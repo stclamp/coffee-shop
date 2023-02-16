@@ -14,7 +14,9 @@ const SingleProductPage = () => {
   useEffect(() => {
     getCurrentCoffee();
     console.log(coffee);
+    // eslint-disable-next-line
   }, []);
+
   const [coffee, setCoffee] = useState(coffeeDb);
   const params = useParams();
 
@@ -24,7 +26,6 @@ const SingleProductPage = () => {
     );
   };
 
-  console.log(params);
   return (
     <div className="product">
       <Hero bg={bg}>
