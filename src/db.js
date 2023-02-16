@@ -1,0 +1,58 @@
+export const coffeeDb = [
+  {
+    src: require("./assets/images/aromisto.png"),
+    title: "AROMISTICO Coffee 1 kg",
+    country: "Brazil",
+    price: "6.99$",
+    link: "aromistico_coffee_1_kg",
+  },
+  {
+    src: require("./assets/images/presto.png"),
+    title: "Presto Coffee Beans 1 kg",
+    country: " ",
+    price: "15.99$",
+    link: "presto_coffee_1_kg",
+  },
+  {
+    src: require("./assets/images/solimo.png"),
+    title: "Solimo Coffee Beans 2 kg",
+    country: " ",
+    price: "10.73$",
+    link: "solimo_coffee_2_kg",
+  },
+  {
+    src: require("./assets/images/aromisto.png"),
+    title: "AROMISTICO Coffee 1 kg",
+    country: "Kenya",
+    price: "6.99$",
+    link: "aromistico_coffee_1_kg",
+  },
+  {
+    src: require("./assets/images/aromisto.png"),
+    title: "AROMISTICO Coffee 1 kg",
+    country: "Columbia",
+    price: "6.99$",
+    link: "aromistico_coffee_1_kg",
+  },
+  {
+    src: require("./assets/images/aromisto.png"),
+    title: "AROMISTICO Coffee 1 kg",
+    country: "Brazil",
+    price: "6.99$",
+    link: "aromistico_coffee_1_kg",
+  },
+  {
+    src: require("./assets/images/aromisto.png"),
+    title: "AROMISTICO Coffee 1 kg",
+    country: "Brazil",
+    price: "6.99$",
+    link: "aromistico_coffee_1_kg",
+  },
+  {
+    src: require("./assets/images/aromisto.png"),
+    title: "AROMISTICO Coffee 1 kg",
+    country: "Brazil",
+    price: "6.99$",
+    link: "aromistico_coffee_1_kg",
+  },
+];
