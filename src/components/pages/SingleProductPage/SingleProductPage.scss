@@ -1,0 +1,45 @@
+.product {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  &__image {
+    margin-right: 42px;
+    margin-top: 70px;
+    img {
+      width: 392px;
+      height: 355px;
+      object-fit: cover;
+      filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+    }
+  }
+
+  &__description {
+    width: 418px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline;
+    margin-right: 8px;
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  &__country,
+  &__description,
+  &__price {
+    margin-top: 16px;
+  }
+
+  &__subtitle-price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 5px;
+  }
+}

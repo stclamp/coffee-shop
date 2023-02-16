@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/products" element={<ProductsPage />} />
-          <Route path="/products/:title" element={<SingleProductPage />} />
+          <Route path="/products/:product" element={<SingleProductPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
