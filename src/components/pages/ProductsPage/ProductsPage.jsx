@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import product from "../../../assets/images/aromisto.png";
 import bg from "../../../assets/images/products_bg.jpg";
 import productsImage from "../../../assets/images/products_img.png";
 
@@ -19,6 +18,7 @@ const ProductsPage = () => {
 
   useEffect(() => {
     searchCoffee();
+    // eslint-disable-next-line
   }, [search]);
 
   const filterCoffee = (country) => {

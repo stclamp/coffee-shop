@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { coffeeDb } from "../../../db";
 
@@ -9,9 +8,8 @@ import Title from "../../Title/Title";
 import Underline from "../../Underline/Underline";
 
 import "./AboutPage.scss";
-const AboutPage = () => {
-  const [coffee, setCoffee] = useState(coffeeDb);
 
+const AboutPage = () => {
   return (
     <div className="about">
       <Hero bg={bg}>
@@ -39,8 +37,8 @@ const AboutPage = () => {
           </div>
         </div>
         <ul className="about__all">
-          {coffee &&
-            coffee.map((item, i) => {
+          {coffeeDb &&
+            coffeeDb.map((item, i) => {
               return (
                 <li className="about__product" key={i}>
                   <Link to={`../products/${item.link}`}>
